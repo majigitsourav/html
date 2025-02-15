@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <form method="post">
+        <h2>Registration</h2>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="C_name" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="C_password" required/></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td> <input type="tel" name="C_phone" required/></td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td> <input type="email" name="c_email" required/></td>
+            </tr>
+            <tr>
+                <td>DATE OF Birth</td>
+                <td>
+                    <input type="date" name="c_date" required/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="c_gender" value="male"/>Male</td><br/>
+                <td><input type="radio" name="c_gender" value="female"/>Female</td><br/>
+                <td><input type="radio" name="c_gender" value="Others"/>Others</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="c_country" required>
+                        <option value="India">India</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">CANADA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "submit" name="c_send" value="Submit" required/></td>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>

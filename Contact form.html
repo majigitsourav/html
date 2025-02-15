@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta http-equiv ="X-UA-Compatible" content="IE=edge"?>
+        <meta name "viewport" content ="width=device-width,initial-scale = 1.0"/><meta name="viewport" content="initial-scale=1.0"/>
+        <title > CONTACT Forms in html</title> 
+    </head>
+    <body>
+        <form>
+        <h2>Contact Form</h2>
+         <table>
+             <tr>
+                 <td>Name:</td>
+                 <td><input type="text" name = "c_name" required /></td> 
+             </tr>
+             <tr>
+                 <td>Email</td>
+                 <td><input type = "email" name="c_email" required /> </td>
+             </tr>
+             <tr>
+                <td>Phone</td>
+                <td><input type = "tel" name="c_phone" required /> </td>
+            </tr>
+            <tr>
+                <td>Subject</td>
+                <td><input type = "text" name="c_subject" required /> </td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea name = "c_mes "cols="30" rows = "5"required > </textarea></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type = "radio" name="c_gender" value = "Male" /> Male<br/>
+                    <input type = "radio" name="c_gender" value = "Male" /> Female
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                    <select  name = "c_country" required>
+                        <option value = "India">India</option>
+                        <option value="USA">USA</option>
+                        <option value = "Canada">Canada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type ="submit" name = "c_send" value ="Send Message" required/>
+                </td>
+            </tr>
+         </table>
+        </form>
+    </body>
+</HTML>

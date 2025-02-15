@@ -1,0 +1,7 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<h3>RAJESH MAJI</h3>
+<p>I AM RAJESH KUMAR MAJI.<BR? I READ IN CLASS 12.<P/>
+</body>
+</html>

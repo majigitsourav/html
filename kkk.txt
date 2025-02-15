@@ -1,0 +1,11 @@
+def changepass(request):
+	u=user()
+	x=request.GET['a1']
+	y=request.GET['a2']
+	cursor=connection.cursor()
+	cursor.execute("select password from user")
+	row=cursor.fetchall()
+	for i in row:
+		for j in i:
+			if x==j:
+				

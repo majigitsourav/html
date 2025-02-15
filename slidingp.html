@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slide Animation</title>
+    <style>
+        /* Style for the container that will hold the sliding paragraph */
+        .slide-container {
+            overflow: hidden;
+            position: relative;
+            width: 300px; /* Adjust the width as needed */
+            height: 100px; /* Adjust the height as needed */
+        }
+
+        /* Style for the sliding paragraph */
+        .slide-paragraph {
+            position: absolute;
+            top: 0;
+            right: -100%; /* Initially positioned outside the container */
+            width: 100%;
+            height: 100%;
+            background-color: lightblue;
+            transition: right 1s ease; /* Animation transition properties */
+        }
+
+        /* Animation triggered on hover */
+        .slide-container:hover .slide-paragraph {
+            right: 0; /* Moves the paragraph inside the container */
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-paragraph">
+            <p>This is a sliding paragraph from right to left.</p>
+        </div>
+    </div>
+</body>
+</html>
